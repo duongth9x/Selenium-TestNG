@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CrossBrowser/MultiBrowser]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Test register in chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="test.testlogin">
+        <methods>
+          <include name="tearDown"/>
+          <include name="Login_Admin_Successful"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- test.testlogin -->
+    </classes>
+  </test> <!-- Test register in chrome(failed) -->
+</suite> <!-- Failed suite [CrossBrowser/MultiBrowser] -->

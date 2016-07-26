@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CrossBrowser/MultiBrowser" duration-ms="55878" started-at="2016-06-26T04:41:54Z" finished-at="2016-06-26T04:42:50Z">
+    <groups>
+    </groups>
+    <test name="Test register in chrome" duration-ms="55878" started-at="2016-06-26T04:41:54Z" finished-at="2016-06-26T04:42:50Z">
+      <class name="test.testlogin">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:test.testlogin@19e13df]" name="setUp" is-config="true" duration-ms="3292" started-at="2016-06-26T11:41:54Z" finished-at="2016-06-26T11:41:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Login_Admin_Successful()[pri:6, instance:test.testlogin@19e13df]" name="Login_Admin_Successful" duration-ms="51244" started-at="2016-06-26T11:41:58Z" finished-at="2016-06-26T11:42:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Admin_Successful -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.testlogin@19e13df]" name="tearDown" is-config="true" duration-ms="1300" started-at="2016-06-26T11:42:49Z" finished-at="2016-06-26T11:42:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.testlogin -->
+    </test> <!-- Test register in chrome -->
+  </suite> <!-- CrossBrowser/MultiBrowser -->
+</testng-results>
